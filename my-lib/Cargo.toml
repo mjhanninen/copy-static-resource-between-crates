@@ -1,0 +1,7 @@
+[package]
+name = "my-lib"
+version = "0.1.0"
+edition = "2018"
+build = "build.rs"
+# this prefixes the `DEP_*` metadata variables
+links = "my-lib"

@@ -1,0 +1,8 @@
+[package]
+name = "my-bin"
+version = "0.1.0"
+edition = "2018"
+build = "build.rs"
+
+[dependencies.my-lib]
+path = "../my-lib"
